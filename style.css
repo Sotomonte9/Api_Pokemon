@@ -1,0 +1,339 @@
+.encabezado{
+    background-color: red;
+    width: 100%;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    border-style: 10px;
+}
+
+.enmedio{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo{
+    background-color: lightgrey;
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-style: 10px;
+}
+
+
+
+.fondo{
+    background-color:rgb(246, 180, 27);
+    margin: 20px;
+    width: 97%;
+    height: auto;
+}
+
+.logo{
+    width: 300px;
+    height: 175px;
+}
+
+.chad{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+.gif{
+    width: 350px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    border-style: solid;
+    border-color: black;
+}
+
+.texto{
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(245, 194, 74);
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 10px;
+}
+
+.espacio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_encabezado{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+    border-style: 10px;
+    cursor: pointer;
+}
+
+/* Seccion de comentarios */
+
+
+
+.comment-section {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.comment-section h2, .comment-section h3 {
+    margin: 0 0 10px;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#name-input, #comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#comment-input {
+    height: 100px;
+}
+
+#comment-form button {
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #4cae4c;
+}
+
+#comments-container {
+    margin-top: 20px;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+#comments-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.comment-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.delete-button:hover {
+    background: darkred;
+    transform: scale(1.1);
+}
+
+.delete-button:active {
+    background: maroon;
+}
+
+/*ESTILOS DE LA PARTE DE POKEDEX*/
+
+.subfondo{
+    background-color:rgb(252, 38, 23);
+    margin: 20px;
+    width: 97%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-style: 5px;
+}
+
+.regiones{
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: black;
+    border-style: 5px;
+    width: 400px;
+    height: 200px;
+}
+.kanto{
+    background-image: url('img/REGIONES/kanto.png'); 
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.johto{
+    background-image: url('img/REGIONES/johto.png');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.hoenn{
+    background-image: url('img/REGIONES/hoenn.png');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.sinnoh{
+    background-image: url('img/REGIONES/sinnoh.png');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.teselia{
+    background-image: url('img/REGIONES/teselia.webp');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.kalos{
+    background-image: url('img/REGIONES/kalos.png');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.alola{
+    background-image: url('img/REGIONES/alola.png');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.galar{
+    background-image: url('img/REGIONES/galar.webp');
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.paldea{
+    background-image: url('img/REGIONES/paldea.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border: none; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pokedex {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.pokedex th, .pokedex td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+.pokedex th {
+    background-color: #ff5757;
+    color: #000000;
+    text-align: center;
+}
+.pokedex td:nth-child(even) {
+    background-color: #e92626;
+}
+.pokedex td:nth-child(odd) {
+    background-color: #d60d0d;
+}
+.pokedex td img {
+    max-width: 100px;
+}
+
+.construccion{
+    height: 700px;
+    width: 700px;
+}

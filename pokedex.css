@@ -1,0 +1,131 @@
+.encabezado{
+    background-color: red;
+    width: 100%;
+    height: 130px;
+    border-style: solid;
+    border-color: black;
+    border-style: 10px;
+}
+
+.enmedio{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo{
+    background-color: lightgrey;
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-style: 10px;
+}
+
+.fondo{
+    background-color:rgb(246, 180, 27);
+    margin: 20px;
+    width: 97%;
+    height: auto;
+}
+
+.logo{
+    width: 300px;
+    height: 175px;
+}
+
+.gif{
+    width: 350px;
+    height: 130px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    border-style: solid;
+    border-color: black;
+}
+
+body {
+    background-image: url('img/lab.jpg');;
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pokedex {
+    background-color: #ef5350;
+    border: 5px solid #212121;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pokedex-header {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.pokedex-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.pokedex-body {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register-form .form-group {
+    margin-bottom: 15px;
+}
+
+.register-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-form button {
+    background-color: #42a5f5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.register-form button:hover {
+    background-color: #1e88e5;
+}
+
+.return{
+    margin: 15px;
+    height: 30px;
+}
+.centrame{
+    display: flex;
+    justify-content: center;
+}

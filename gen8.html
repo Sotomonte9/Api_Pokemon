@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon_Wiki/Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/pokebola.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="encabezado center">
+            <a href="index.html" class="btn-link">
+                <img src="img/pekologo.png" class="logo">
+            </a>
+
+            <img src="img/degobdt-591eb2a1-e249-4aef-8571-fd68f9b92229.gif" class="gif">
+            <div class="espacio">
+                <a href="index.html" class="btn-link">
+                    <button class="button_encabezado">HOME</button>
+                </a>
+                <a href="about.html" class="btn-link">
+                    <button class="button_encabezado">ABOUT</button>
+                </a>
+                <a href="pokedex.html" class="btn-link">
+                    <button class="button_encabezado">POKEDEX</button>
+                </a>
+                <a href="registro.html" class="btn-link">
+                    <button class="button_encabezado">LOG IN</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="cuerpo">
+        <div class="fondo">  
+            <div class="titulo enmedio">
+                <h2>🌀 POKEDEX 🌀</h2>
+            </div>
+
+            <div class="subfondo enmedio">
+                <h2>🏔️ GALAR 🏔️</h2>
+            </div>
+            
+            <table class="pokedex">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Altura</th>
+                        <th>Peso</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody id="Gen8">
+                    <!-- Los datos de Pokémon serán añadidos aquí dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
